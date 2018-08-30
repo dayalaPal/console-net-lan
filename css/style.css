@@ -1,0 +1,144 @@
+
+.btn-crud{
+  background-color: #F9AA33;
+  color: white;
+  border: 1px solid #F9AA33
+}
+
+.btn-jumbotron{
+  background-color: #F9AA33;
+  color: #232F34;
+  border: 1px solid #F9AA33
+}
+
+.btn-jumbotron:hover{
+  background-color: #232F34;
+  color: #F9AA33;
+  border: 1px solid #232F34
+}
+
+.btn-crud:hover{
+  background-color:  #4A6572;
+  color: #CED7DD;
+  border: 1px solid  #4A6572;
+}
+
+tr:hover{
+  color: #232F34;
+}
+
+.tr-header:hover{
+  color: #CED7DD;
+}
+
+.navbar-default{
+  background-color: #12badc;
+  color: white !important;
+    border: 1px solid #12badc;
+    border-radius: 0px;
+}
+
+
+.navbar-nav > li > a{
+  color:  white !important;
+}
+
+.navbar-brand{
+    background-color: #12badc;
+    color: white !important;
+}
+
+
+.navbar-nav > li:hover, .navbar-nav > li >a:hover{
+  background-color: white;
+  color: #12badc !important;
+}
+
+.header-nav-style:hover{
+  color: #CED7DD;
+}
+
+.jumb-style{
+  margin-top: 50px;
+  background-color: #4A6572;
+  color: #CED7DD;
+}
+
+.header-style{
+  margin-top: 20px;
+}
+
+
+.list-group, .list-group-item{
+  background-color: #4A6572 !important;
+  border: 1px solid #4A6572 !important;
+  color: #CED7DD !important;
+  border-radius: 4px;
+}
+
+.list-group-item:hover{
+  background-color: #F9AA33 !important;
+  border: 1px solid #F9AA33 !important;
+  color: white !important;
+  border-radius: 4px;
+}
+
+.img-logo{
+    height: 20px;
+    width: 20px;
+}
+
+.chat-container {
+    border: 2px solid #12badc;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+}
+
+/* Darker chat container */
+.darker {
+    border-color: #12badc;
+}
+
+/* Clear floats */
+.chat-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.chat-container > p{
+    padding-left: 15px
+}
+
+.chat-container > h3{
+    padding-top: 0px;
+}
+/* Style images */
+.chat-container img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Style the right image */
+.chat-container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+    float: right;
+    color: black;
+}
+
+/* Style time text */
+.time-left {
+    float: left;
+    color: black;
+}
+
